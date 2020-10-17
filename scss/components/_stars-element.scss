@@ -1,0 +1,16 @@
+.stars-element {
+    padding: 1rem 1.5rem;
+    background-color: $light-gray-magenta;
+    border-radius: 5px;
+    font-size: .7rem;
+    font-weight: bold;
+    color: $very-dark-magenta;
+    display: flex;
+    align-items: center;
+
+    .stars-container {
+        vertical-align: middle;
+        margin-right: 1rem;
+        display: inline-block;
+    }
+}

@@ -1,5 +1,11 @@
+@import 'utils/variables';
+@import "utils/container";
+
+@import "components/stars-element";
+
+@import "page/review-section";
+
 @import 'base/reset';
 @import 'base/typography';
 
-@import 'utils/variables';
 

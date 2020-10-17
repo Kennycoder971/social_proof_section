@@ -1,0 +1,26 @@
+.review-section {
+    .testimonial-title {
+        margin-bottom: .5rem;
+    }
+    .review-section-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .review-stars {
+        
+        .stars-element:not(:last-child) {
+            margin-bottom: .5rem;
+        }
+
+        .stars-element:nth-child(1) {
+            transform: translateX(-7rem);
+        }
+        .stars-element:nth-child(2) {
+            transform: translateX(-5rem);
+        }
+        .stars-element:nth-child(3) {
+            transform: translateX(-3rem);
+        }
+    }
+}
