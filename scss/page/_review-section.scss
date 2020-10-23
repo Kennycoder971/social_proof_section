@@ -23,4 +23,22 @@
             transform: translateX(-3rem);
         }
     }
+
+
+    .customer-reviews {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+        font-size: .7rem;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .review-section {
+        .customer-reviews {
+            display: block;
+            
+        }
+    }
 }

@@ -1,0 +1,80 @@
+.customer-reviews {
+
+
+    .review {
+        width: 32%;
+        background-color: $very-dark-magenta;
+        padding: 1.5rem;
+        border-radius: 5px;
+        color: $white;
+
+        &:nth-child(2){
+            transform: translateY(15px);
+        }
+
+        &:nth-child(3){
+            transform: translateY(30px);
+        }
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+        
+        .customer {
+            display: flex;
+            
+            
+
+            .customer-photo-container {
+                margin-right: 1rem;
+
+                .customer-photo {
+                    width: 40px;
+                    border-radius: 500px;
+                }   
+            }
+    
+            .customer-infos {
+                
+
+                span {
+                    display: inline-block;
+                }
+                .customer-name {
+                    font-weight: bold;
+                }
+        
+                .verified-buyer {
+                    color: $soft-pink;
+                }   
+            }
+        }
+        
+
+        .customer-review {
+            margin-top: 1rem;
+            line-height: 1.7;
+            
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .customer-reviews {
+        display: block;
+
+        .review {
+            width: 100%;
+            
+
+            &:not(:last-child) {
+                margin-right: 0rem;
+            }
+        }
+
+    }
+    
+}
